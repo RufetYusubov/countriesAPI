@@ -1,0 +1,32 @@
+.inp_btn{
+    max-width: 300px;
+    margin: 30px auto;
+    display: flex;
+    gap: 6px;
+    height: 30px;
+}
+
+.inp_btn input{
+    width: 70%;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 20px;
+}
+
+.card{
+    min-width: 277px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 9px rgba(69, 69, 69, 0.23);
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+}
